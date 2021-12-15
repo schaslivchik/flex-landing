@@ -2,7 +2,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
-  
 }
 h1 {
   font-size: 2.6em;
@@ -10,14 +9,14 @@ h1 {
 }
 p {
   font-size: 1em;
-  line-height: 1.4;
+  line-height: 1.6;
 }
 .txt-white {
   color: #fff;
 }
 header {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   background-image: url(../imgs/showcase.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -47,4 +46,45 @@ header h1 {
 header p {
   text-shadow: #000 0 0 50px;
   font-weight: 500;
+}
+.wraper-list-features {
+  background: #333;
+}
+.list-features {
+  display: flex;
+}
+.list-features-items {
+  padding: 10px 20px;
+  text-align: center;
+}
+.fab, .fas {
+  font-size: 3.6em;
+}
+.list-features-items .fab,
+.list-features-items .fas {
+  margin-bottom: 10px;
+}
+.title-lvl-2 {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.container {
+  padding: 60px 0;
+  width: 100%;
+  max-width: 1140px;
+  margin: auto;
+}
+.about-us-block {
+  display: flex;
+}
+.fa-laptop-code {
+  font-size: 140px;
+  width: 30%;
+  padding: 0 15px;
+  text-align: center;
+}
+.about-us-txt-block {
+  width: 70%;
+
 }
