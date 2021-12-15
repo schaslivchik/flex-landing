@@ -47,7 +47,7 @@ header p {
   text-shadow: #000 0 0 50px;
   font-weight: 500;
 }
-.wraper-list-features {
+.dark-bg {
   background: #333;
 }
 .list-features {
@@ -83,8 +83,13 @@ header p {
   width: 30%;
   padding: 0 15px;
   text-align: center;
+  color: #333;
 }
 .about-us-txt-block {
   width: 70%;
-
+}
+footer {
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
 }
